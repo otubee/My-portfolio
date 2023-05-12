@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div id="realBody">
+
+        <!------------------------------------------------ SECTION ------------------------------------------------------->
+        <!-- LOGO -->
+        <div id="head" class="py-3 w-full flex flex-row justify-between items-center bg-gray-100 fixed">
+            <p class=" ml-12 text-red-900 font-bold text-5xl">O<span class="text-blue-900 font-bold text-5xl">T</span><span class="text-orange-900 font-bold text-5xl">U</span><span class="text-green-900 font-bold text-5xl">~</span><span class="text-purple-900 font-bold text-5xl">B</span></p>
+
+        <!-- Navbar -->
+            <div id="dropdownwrap" class="flex flex-row">
+                <nav id="listdrop" class="w-auto list-none flex flex-col justify-between absolute top-16 md:top-0 md:relative items-center md:visible invisible md:flex-row md:w-96">
+                    <a href="#home">
+                        <li class="text-red-600 font-bold cursor-pointer hover:underline underline-offset-4 decoration-red-900 ">Home</li>
+                    </a>
+                    <a href="#About_me">
+                        <li class="text-red-600 font-bold cursor-pointer hover:underline underline-offset-4 decoration-red-900 ">About</li>
+                    </a>
+                    <a href="#my_services">
+                        <li class="text-red-600 font-bold cursor-pointer hover:underline underline-offset-4 decoration-red-900 ">Services</li>
+                    </a>
+                    <a href="#contact_me">
+                        <li class="text-red-600 font-bold cursor-pointer hover:underline underline-offset-4 decoration-red-900 ">Contact</li>
+                    </a>
+                </nav>
+                <div id="dropDown" class="w-16 md:invisible relative">
+                    <img class="w-full" src="./images/hamburger-menu.svg" alt="icon"> 
+                </div>
+            </div>
+        </div>
+    
+        
+    <!-- ------------------------------------------------SECTION---------------------------------------------------- -->
+        <section>
+            <!-- Light and Dark Mode Button -->
+            <button id="butt" class="w-12 ml-12 p-1 bg-black  mt-32">
+                <img class="" src="./images/light.png" alt="">
+            </button>
+
+            <!-- Home Page -->
+            <div class="flex flex-row justify-center">
+                <div class="w-3/4 mt-8 flex flex-col gap-5 md:flex-row justify-between items-center">
+                    <div class="w-72">
+                        <a id="home">
+                            <h1 class="mb-6 text-3xl font-bold">Hello, my name is Otubela Olamide</h1>
+                        </a>
+                        <h1 class="mb-4 text-2xl font-semibold">I'm a Software Engineer</h1>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nam aliquam, quas earum expedita eveniet at dolor nesciunt dolores molestiae.
+                     </p>
+                    </div>
+                    <div class="w-96 h-96">
+                        <img class="w-full h-full object-fit" src="./images/image1.jpeg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ------------------------------------------------------------SECTION----------------------------------------------------- -->
+    <!-- About Me Page -->
+        <section class="mt-24">
+            <a id="About_me">
+                <h2 class="mb-12 text-center text-2xl font-semibold">About Me</h2>
+            </a>
+            <div class="flex justify-center">
+                <div class="w-3/4 flex flex-col gap-4 items-center md:flex-row justify-between">
+                    <div class="w-72 h-72">
+                        <img class="w-full h-full object-fit" src="./images/image2.jpg" alt="">
+                    </div>
+                    <p class="w-2/3 md:w-3/4 text-xl">Experienced software engineer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organisational success. Well-versed in technology and writing code to create systems that are reliable and user friendly. Confident communicator, strategic thinker, and innovative creator to develop software that is customized to meet a company's organisational needs, highklight its core competencies and further its success</p>
+                </div>
+            </div>  
+        </section>
+
+    <!-- --------------------------------------------------------   SECTION--------------------------------------------------------- -->
+        <!-- My Services Page -->
+        <section class="mt-24">
+            <a id="my_services">
+                <h2 class="mb-12 text-center text-2xl font-semibold">My Services</h2>
+            </a>
+            <div class="flex justify-center">
+                <div id="myDiv" class="flex flex-col items-center gap-5 md:flex-row justify-between w-3/4">
+                    <div class="w-52 border border-red-600 mb-3">
+                        <h3 id="serv" class="bg-red-400 text-white p-2 w-42 text-center rounded-3xl">Web Development</h3>
+                        <p>I create a responsive website fully ready to function in the organization. Our core value is to deliver excellent web applications that run and look consistent across all platforms and browsers.</p>
+                    </div>
+                    <div class="w-52 border border-red-600 mb-3">
+                        <h3 id="serve" class="bg-red-400 text-white p-2 w-42 text-center rounded-3xl">Software Maintenance</h3>
+                        <p>I ensure smooth functioning and relevancy of your software via continuous performance monitoring, proactive optimization and fast issue resolution, delivery of new features and integrations.</p>
+                    </div>
+                    <div class="w-60 border border-red-600 mb-3">
+                        <h3 id="server" class="bg-red-400 p-2 w-42 text-white text-center rounded-3xl">Software Application</h3>
+                        <p>I build and Implement software applications helping to add functionality. I provides the web application development services for the fast-growing companies looking to create and improve the web-based software products and solutions with innovative features and beautiful appearance. </p>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-center text-sm mt-3 font-bold">My Passion is to Deliver Software that Helps You Succeed</p>
+        </section>
+    
+        <!-- --------------------------------------------------------SECTION---------------------------------------------------------- -->
+            <!-- My Latest Project Page -->
+        <section class="mt-24">
+            <h2 class="mb-12 text-center text-2xl font-semibold">Latest Project</h2>
+            <div class="flex justify-center">
+                <div id="lastestproject" class="w-3/4 flex flex-col gap-20 items-center md:flex-row justify-between">
+                    <div class="w-60 h-60 shrink-0">
+                        <img class="w-full h-full object-fit" src="./images/hotelbg.jpg" alt="image">
+                        <p class="text-2xl font-semibold text-center">Hotel Management</p>
+                    </div>
+                    <div class="w-60 h-60 shrink-0">
+                        <img class="w-full h-full object-fit" src="./images/bank.jpeg" alt="image">
+                        <p class="text-2xl font-semibold text-center">Banking App</p>
+                    </div>
+                    <div class="w-60 h-60 shrink-0">
+                        <img class="w-full h-full object-fit" src="./images/shop cart.jpeg" alt="image">
+                        <p class="text-2xl font-semibold text-center">Shooping Cart</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- -----------------------------------------------------SECTION---------------------------------------------------- -->
+            <!-- Skills Page -->
+        <section class="mt-24">
+            <h2 class="mb-4 text-center text-2xl font-semibold">Skills</h2>
+            <div class="w-3/4 ml-20 text-xl">
+                <li>Well-versed in software tools including HTML, JavaScript, CSS, and Python.</li>
+            <li>Skilled at reading and writing code using viable inputs and outputs after an accurate assessment of pre- and post-conditions.</li>
+            <li>Experienced at designing unit tests to measure the effectiveness of software programs, backend services and user interfaces.</li>
+            <li>Confident problem-solving abilities to overcome glitches with creative solutions that are strategically designed to last long-term.</li>
+            <li>Strong communication skills and the ability to listen carefully to user feedback to determine modifications for optimal user function.</li>
+            </div>
+        </section>
+    
+        <!-- ---------------------------------------------------------SECTION--------------------------------------------------- -->
+            <!-- Contact Page -->
+        <section class="mt-24 pb-12">
+            <a id="contact_me">
+                <h2 class="mb-12 text-center text-2xl font-semibold">Contact Me</h2>
+            </a>
+            <div class="flex justify-center">
+                <div class="w-3/4 flex flex-col gap-12 items-center md:flex-row justify-between">
+                    <div class="w-48 grid grid-rows">
+                        <img class="w-24" src="./images/phone.png" alt="image">
+                        <p class="text-xl font-semibold">Phone</p>
+                        <p>Call: +234 8167516609</p>
+                        <a href="tel:08167516609"><button
+                            id="buton" class="w-24 bg-red-500 hover:bg-red-600 text-white text-center">Call me</button></a>
+                    </div>
+                    <div class="w-48 grid grid-rows">
+                        <img class="w-24" src="./images/mail.png" alt="image">
+                        <p class="text-xl font-semibold">Gmail</p>
+                        <p>holarsheyi@gmail.com</p>
+                        <a href="mailto:holarsheyi@gmail.com">
+                            <button id="but" class="w-24 bg-red-500 hover:bg-red-600 text-white text-center">Click here</button>
+                        </a>
+                    </div>
+                    <div class="w-48 grid grid-rows">
+                        <img class="w-24" src="./images/livechat.png" alt="image">
+                        <p class="text-xl font-semibold">Live Chat</p>
+                        <p>Chat me on WhatsApp</p>
+                        <a href="http://wa.me/+2348167516609">
+                            <button id="bton" class="w-24 bg-red-500 hover:bg-red-600 text-white text-center">Click here</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- -----------------------------------------------------------SECTION----------------------------------------------------- -->
+            <!-- Social Icons -->
+        <section>
+            <p class="text-xs font-bold font-semibold text-center mb-3">follow me</p>
+            <div class="flex justify-center">
+                <div class="w-72 flex flex-row justify-between mb-12">
+                    <a href="https://www.facebook.com/otubela.olamide2?mibextid=ZbWKwL ">
+                        <img class="w-8" src="./images/facebook.jpeg" alt="icon">
+                    </a>
+                    <a href="https://instagram.com/holarsheyi?igshid=ZGUzMzM3NWJiOQ== ">
+                        <img class="w-8" src="./images/instagram.jpeg" alt="icon">
+                    </a>
+                    <a href="https://twitter.com/Olamide74458155">
+                        <img class="w-8" src="./images/twitter.png" alt="icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/olamide-otubela-203a641b8">
+                        <img class="w-8" src="./images/linkedin.png" alt="icon">
+                    </a>   
+                </div>
+            </div>
+        </section>
+    
+        <!-- -----------------------------------------------------SECTION---------------------------------------------------- -->
+            <!-- Comments and Feedback -->
+        <section>
+            <div class="flex flex-row items-center">
+                <label for="comments" class="text-2xl font-semibold">Feedback</label>
+                <textarea class="mb-6 border border-red-500" name="text" id="input" cols="40" rows="3" wrap="soft"></textarea>
+                <button id="btn" class="ml-4 py-4 rounded-xl w-24 bg-red-500 hover:bg-red-600 text-white">Submit</button> 
+            </div>
+            <div id="comment" class="grid grid-rows outline outline-red-600"></div>
+            
+        </section>
+    </div> 
+</body>
+<script src="./script.js"></script>
+</html>
